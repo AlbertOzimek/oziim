@@ -23,5 +23,14 @@ Tutorial | Branch
 
 * See [LICENSE](LICENSE)
 
-
+Deploy to git:
 git push -u origin master
+
+Deploy to google cloud:
+
+gcloud preview app deploy app.yaml --set-default
+
+
+Testing url:
+https://daring-avenue-108709.appspot.com
+ozimex.tk
