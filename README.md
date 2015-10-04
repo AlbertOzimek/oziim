@@ -26,14 +26,23 @@ Tutorial | Branch
 Deploy to git:
 git push -u origin master
 
+
+
+gcloud init
+
 Deploy to google cloud:
 
 gcloud preview app deploy app.yaml --set-default
 
 
 Testing url:
-https://daring-avenue-108709.appspot.com
+https://ozimex1984.appspot.com
 http://localhost:8080/
 ozimex.tk
 
 npm start
+
+
+To do:
+Check how to deploy the code without deploying the node_modules
+
