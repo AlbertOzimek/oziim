@@ -18,12 +18,7 @@ var express = require('express');
 var app = express();
 
 
-// [START hello_world]
-// Say hello!
-app.get('/', function(req, res) {
-  res.status(200).send('Hello, Ozimex!');
-});
-// [END hello_world]
+app.use(express.static(__dirname + "/public"));
 
 
 // [START server]

@@ -33,4 +33,7 @@ gcloud preview app deploy app.yaml --set-default
 
 Testing url:
 https://daring-avenue-108709.appspot.com
+http://localhost:8080/
 ozimex.tk
+
+npm start
