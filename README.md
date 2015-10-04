@@ -43,6 +43,9 @@ ozimex.tk
 npm start
 
 
+sass --watch main.scss:main.css
+
+
 To do:
 Check how to deploy the code without deploying the node_modules
 
