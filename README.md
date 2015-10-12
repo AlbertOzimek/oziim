@@ -1,3 +1,21 @@
+ozimx.tk
+
+# Cloud Repository URL
+https://source.developers.google.com/p/ozimex1984/
+
+# Cloning the project
+
+gcloud init
+gcloud source repos clone default <local-directory>
+cd <local-directory>
+git push -u origin master
+
+gcloud init
+gcloud source repos clone default <local-directory>
+cd <local-directory>
+git push -u origin master
+
+
 # Getting started with Node.js on Google Cloud Platform
 
 This repository is the complete sample code for the [Node.js Getting Started on Google Cloud Platform](http://cloud.google.com/nodejs/getting-started) tutorials. Please refer to the tutorials for instructions on configuring, running, and deploying these samples.
@@ -50,12 +68,4 @@ To do:
 Check how to deploy the code without deploying the node_modules
 
 
-Source repository settings
 
-Cloud Repository URL
-https://source.developers.google.com/p/ozimex1984/
-
-gcloud init
-gcloud source repos clone default <local-directory>
-cd <local-directory>
-git push -u origin master
