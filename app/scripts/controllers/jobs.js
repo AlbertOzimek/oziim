@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name enov8App.controller:AboutCtrl
+ * @name ozimXApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the enov8App
+ * Controller of the ozimXApp
  */
-angular.module('enov8App')
+angular.module('ozimXApp')
     .controller('jobsModalCtrl', function($scope, $http) {
       // Jobs Modal Start - needs to go to external file
       $('#jobsModal').on('show.bs.modal', function (event) {

@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name enov8App
+ * @name ozimXApp
  * @description
- * # enov8App
+ * # ozimXApp
  *
  * Main module of the application.
  */
 angular
-  .module('enov8App', [
+  .module('ozimXApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

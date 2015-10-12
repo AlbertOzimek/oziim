@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name enov8App.controller:MainCtrl
+ * @name ozimXApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the enov8App
+ * Controller of the ozimXApp
  */
-angular.module('enov8App')
+angular.module('ozimXApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
