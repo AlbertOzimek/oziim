@@ -55,5 +55,11 @@ sudo mkdir $HOME/db ; sudo mongod --dbpath $HOME/db --port 80 --fork --logpath /
 
 
 
+# Deploying the app:
+appcfg.py -A malpaozim-ozimx update app.yaml
+
+
+
+
 
 
