@@ -49,3 +49,13 @@ sass --watch main.scss:main.css
 To do:
 Check how to deploy the code without deploying the node_modules
 
+
+Source repository settings
+
+Cloud Repository URL
+https://source.developers.google.com/p/ozimex1984/
+
+gcloud init
+gcloud source repos clone default <local-directory>
+cd <local-directory>
+git push -u origin master
