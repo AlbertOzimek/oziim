@@ -68,4 +68,23 @@ To do:
 Check how to deploy the code without deploying the node_modules
 
 
+https://www.npmjs.com/package/gcloud
+
+
+
+Install and run the back-end database
+
+Enter these commands to install and run MongoDB. You can use the keyboard to copy and paste each command line. Click Done when you finish entering all the commands to close the SSH window.
+
+Update packages and install MongoDB. When asked if you want to continue, type 'Y'.
+sudo apt-get update
+sudo apt-get install mongodb
+The MongoDB service started when you installed it. You must stop it so you can change how it runs.
+sudo service mongodb stop
+Create a directory for MongoDB and then run the MongoDB service in the background on port 80.
+sudo mkdir $HOME/db ; sudo mongod --dbpath $HOME/db --port 80 --fork --logpath /var/tmp/mongodb
+After you enter the final command, click Done and then confirm that you want to leave the page to close the SSH browser window.
+
+
+
 
