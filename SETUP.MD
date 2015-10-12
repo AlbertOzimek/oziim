@@ -60,6 +60,17 @@ appcfg.py -A malpaozim-ozimx update app.yaml
 
 
 
+To do:
+
+https://console.developers.google.com/project
+
+ozimx standard box
+malpaozim ozimx micro
+make the ozmex run on the micro box
+malpaozim to 
+
+
+
 
 
 
