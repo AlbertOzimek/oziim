@@ -54,7 +54,7 @@ gcloud preview app deploy app.yaml --set-default
 
 
 Testing url:
-https://ozimex1984.appspot.com
+https://malpaozim-oziim.appspot.com
 http://localhost:8080/
 ozimex.tk
 
