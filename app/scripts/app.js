@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name ozimXApp
+ * @name oziimApp
  * @description
- * # ozimXApp
+ * # oziimApp
  *
  * Main module of the application.
  */
 angular
-  .module('ozimXApp', [
+  .module('oziimApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

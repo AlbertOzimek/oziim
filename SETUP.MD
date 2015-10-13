@@ -56,7 +56,7 @@ sudo mkdir $HOME/db ; sudo mongod --dbpath $HOME/db --port 80 --fork --logpath /
 
 
 # Deploying the app:
-appcfg.py -A malpaozim-ozimx update app.yaml
+appcfg.py -A malpaozim-oziim update app.yaml
 
 
 
@@ -64,8 +64,8 @@ To do:
 
 https://console.developers.google.com/project
 
-ozimx standard box
-malpaozim ozimx micro
+oziim standard box
+malpaozim oziim micro
 make the ozmex run on the micro box
 malpaozim to 
 

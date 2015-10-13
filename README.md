@@ -1,4 +1,4 @@
-ozimx.tk
+oziim.tk
 
 # Cloud Repository URL
 https://source.developers.google.com/p/ozimex1984/

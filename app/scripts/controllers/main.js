@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name ozimXApp.controller:MainCtrl
+ * @name oziimApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the ozimXApp
+ * Controller of the oziimApp
  */
-angular.module('ozimXApp')
+angular.module('oziimApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
