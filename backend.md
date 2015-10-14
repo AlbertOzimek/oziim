@@ -18,7 +18,7 @@ sudo apt-get install mongodb
 
 sudo service mongodb stop
 
-### Create a directory for MongoDB and then run the MongoDB service in the background on port 8080.
+### Create a directory for MongoDB and then run the MongoDB service in the background on port 80.
 
-sudo mkdir $HOME/db ; sudo mongod --dbpath $HOME/db --port 8080 --fork \
+sudo mkdir $HOME/db ; sudo mongod --dbpath $HOME/db --port 80 --fork \
 --logpath /var/tmp/mongodb
